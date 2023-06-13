@@ -5,6 +5,12 @@ import { ChartLegend } from './Components/VHP/Charts/ChartLegend';
 import { AirHealthData, AirSafetyData, TemperatureAirMovementData, labels, legend, scores, ticks } from './bin/data';
 import { BarChart } from './Components/VHP/Charts/BarChart';
 
+/**
+ * @todo | Component for the score titles/grades in the forms
+ * @todo | Component for the score grade
+ * @todo | Dynamicize descriptions/titles/etc
+ * @todo | Add a click event/popup card to the charts - in chart component, add a click function
+ */
 export class AirQualityMock extends Component {
     constructor(props) {
         super(props)

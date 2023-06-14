@@ -1,9 +1,9 @@
 export var legend = [
 	"Excellent",
-	"Good",
-	"Average",
-	"Consider Replacement",
-	"Replacement Recommended"
+	"Minor Improvements Available",
+	"Improvements Available",
+	"Several Improvements Recommended",
+	"Address Concerns Soon"
 ]
 
 export var scores = [
@@ -13,9 +13,9 @@ export var scores = [
 ]
 
 export var labels = [
-	"Temperature & Air Movement",
-	"Air Health",
-	"Air Safety"
+	"Temperature & Air Movement: 90%",
+	"Air Health: 50%",
+	"Air Safety: 80%"
 ]
 
 export var ticks = [

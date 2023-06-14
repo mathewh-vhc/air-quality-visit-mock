@@ -38,7 +38,7 @@ export class AirQualityMock extends Component {
 								</div>
 							</div>
 							<div className='guage-cont'>
-								<Image src = "/gauge.png" id = "guage-chart"/>
+								<Image src = "https://raw.githubusercontent.com/mathewh-vhc/air-quality-visit-mock/gh-pages/gauge.png" id = "guage-chart"/>
 								<ChartLegend data = {legend} />
 							</div>
 						</CardContent>
@@ -47,6 +47,7 @@ export class AirQualityMock extends Component {
 								data = {scores}
 								ticks = {ticks}
 								labels = {labels}
+								classes = {["excellent", "average", "good"]}
 							/>
 							<CardContent>
 								<div className='grade-descr'>
@@ -64,7 +65,7 @@ export class AirQualityMock extends Component {
 						cardClass = "score-pres-card"
 						id = "breakdown-card"
 					>
-						<div className='score-summary-grade'>
+						<div className='score-summary-grade excellent'>
 							<div className='score-summary-grade-title'>
 								Temperature & Air Movement
 							</div>
@@ -77,7 +78,7 @@ export class AirQualityMock extends Component {
 								formdata = {TemperatureAirMovementData}
 							/>
 						</div>
-						<div className='score-summary-grade'>
+						<div className='score-summary-grade average'>
 							<div className='score-summary-grade-title'>
 								Health
 							</div>
@@ -90,7 +91,7 @@ export class AirQualityMock extends Component {
 								formdata = {AirHealthData}
 							/>
 						</div>
-						<div className='score-summary-grade'>
+						<div className='score-summary-grade good'>
 							<div className='score-summary-grade-title'>
 								Safety
 							</div>

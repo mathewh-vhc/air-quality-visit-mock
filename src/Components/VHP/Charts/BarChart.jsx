@@ -26,7 +26,7 @@ export class BarChart extends Component {
 			retval.push(
 				<div className='bar-chart-bar-outer'>
 					<div className={'bar-chart-bar-label ' + this.props.labelType}>{this.props.labels&&this.props.labels[i]}</div>
-					<div className='bar-chart-bar' style={{width:this.props.data[i] + "%"}}></div>
+					<div className={'bar-chart-bar ' + this.props.classes[i]} style={{width:this.props.data[i] + "%"}}></div>
 				</div>
 			)
 		}

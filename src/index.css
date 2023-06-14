@@ -86,6 +86,21 @@ code {
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.bar-chart-bar.excellent>.score-summary-grade-percent,
+.score-summary-grade.excellent>.score-summary-grade-title {
+	background-color: #00c602;
+	border: 1px solid #009703;
+}
+.score-summary-grade.good>.score-summary-grade-percent,
+.score-summary-grade.good>.score-summary-grade-title {
+	background-color: #fff700;
+	border: 1px solid #d6cf00;
+}
+.score-summary-grade.average>.score-summary-grade-percent,
+.score-summary-grade.average>.score-summary-grade-title {
+	background-color: #ffd200;
+	border: 1px solid #cea800;
+}
 
 
 /*FORM VERSION TWO*/
@@ -273,7 +288,6 @@ code {
 }
 .bar-chart-bar {
 	position: relative;
-	background-color: cadetblue;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	animation: fadein 1s;
@@ -281,6 +295,24 @@ code {
 	z-index: 50;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+.bar-chart-bar.excellent {
+	background-color: #00c602;
+	border-top: 1px solid #009703;
+	border-bottom: 1px solid #009703;
+	border-right: 1px solid #009703;
+}
+.bar-chart-bar.good {
+	background-color: #fff700;
+	border-top: 1px solid #d6cf00;
+	border-bottom: 1px solid #d6cf00;
+	border-right: 1px solid #d6cf00;
+}
+.bar-chart-bar.average {
+	background-color: #ffd200;
+	border-top: 1px solid #cea800;
+	border-bottom: 1px solid #cea800;
+	border-right: 1px solid #cea800;
 }
 
 .bar-chart-bars-cont {

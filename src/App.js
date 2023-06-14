@@ -19,7 +19,7 @@ var configdefault = {
 		active:false
 	},
 	settings:{
-		dev:false
+		dev:true
 	}
 }
 
